@@ -1,0 +1,100 @@
+body {
+	background-color: lightyellow;
+
+}
+
+header {
+	background-color: #212529;
+}
+
+
+.logo {
+	font-size: 30px;
+	font-weight: 600;
+	color: lightyellow;
+}
+
+.logo span {
+	font-size: 20px;
+	color: orangered;
+	display: block;
+
+}
+
+
+.nav-item .c_active {
+	color: orangered !important;
+}
+
+
+.menu ul li a {
+	margin-right: 40px;
+	font-size: 20px;
+	font-weight: 600;
+	color: lightyellow !important;
+}
+.menu ul li a:hover {
+	color: orangered !important;
+}
+
+
+.practice {
+	margin: 50px 0;
+	font-size: 50px;
+	text-align: center;
+	padding: 10px;
+	color: lightyellow;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+
+/*counterUp*/
+
+
+.counterup{
+	color: white;
+	background-color: darkcyan;
+	border-radius: 10px;
+	padding: 10px;
+}
+.counterup span {
+	font-size: 50px;
+	font-weight: 600;	
+	text-align: center;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+
+/*wow js */
+
+
+.box1, .box2 {
+	margin-bottom: 50px;
+	min-height: 300px;
+}
+
+.box1 {
+	background-color: orangered;
+}
+
+.box2 {
+	background-color: black;
+}
+
+.pt_custom {
+	padding-top: 100px;
+}
+
+/*parallax*/
+
+.parallax-window {
+    min-height: 350px;
+    background: transparent;
+}
+
+.grid-item { width: 25%; }
+.grid-item--width2 { width: 50%; }
+
+
